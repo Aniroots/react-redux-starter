@@ -1,0 +1,74 @@
+@import 'variables';
+:global {
+    body {
+        font-family: 'Open Sans', 'Kanit', sans-serif;
+    }
+    .app-content {
+        min-height: 80.6vh;
+    }
+    .box-info {
+        border: 1px solid $gray-color;
+        margin-bottom: 20px;
+        div {
+            background-color: $white-color;
+            margin: 0px;
+        }
+        .box-info-icon {
+            background-color: $white-color;
+            border-right: 1px solid $gray-color;
+            border-left: 0;
+            i {
+                position: relative;
+                padding: 62px 0;
+                font-size: 30px;
+                color: $dark-gray-color;
+            }
+        }
+        &:hover {
+            .box-info-icon {
+                background-color: $orange-color;
+                border-right: 1px solid $orange-color;
+            }
+        }
+        .box-info-desc {
+            background-color: $white-color;
+            margin: inherit;
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+    .btn-circle {
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+        padding: 7px 16px;
+        border: 2px solid $fade-gray-color;
+        border-radius: 100% !important;
+        font-size: 20px;
+        line-height: 60px;
+        color: $gray-color;
+        background: $light-gray-color;
+        -webkit-transition: background .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out;
+        transition: background .3s ease-in-out;
+        &:focus {
+            outline: 0;
+            color: $dark-gray-color;
+            background: $gray-color;
+        }
+        &:hover {
+            outline: 0;
+            color: $dark-gray-color;
+            background: $gray-color;
+        }
+    }
+    .btn-slategray {
+        background-color: $orange-color;
+        color: $white-color;
+        &:hover {
+            background-color: $orange-color;
+            color: $white-color;
+        }
+    }
+}

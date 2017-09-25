@@ -1,0 +1,26 @@
+// path
+$path-theme: '../theme/';
+$path-theme-custom: '../asset';
+$path-home-bg: $path-theme-custom+'/bg/home-bg-3.jpg';
+// color set
+$black-color: #000000;
+$white-color: #FFFFFF;
+$fade-gray-color: #F5F5F5;
+$light-gray-color: #EEEEEE;
+$gray-color: #BDBDBD;
+$dark-gray-color: #616161;
+$fade-blue-color:#82B1FF;
+$light-blue-color:#448AFF;
+$blue-color:#2979FF;
+$dark-blue-color:#2962FF;
+$fade-indigo-color:#C5CAE9;
+$light-indigo-color:#9FA8DA;
+$indigo-color:#5C6BC0;
+$dark-indigo-color:#303F9F;
+$fade-orange-color:#FFD180;
+$light-orange-color:#FFAB40;
+$orange-color:#FF9100;
+$dark-orange-color:#FF6D00;
+// font
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Kanit:300,400,600,700,800&subset=thai);
